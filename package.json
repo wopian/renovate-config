@@ -5,6 +5,7 @@
   "repository": "https://github.com/wopian/renovate-config",
   "author": "James Harris <wopian@wopian.me>",
   "license": "MIT",
+  "private": false,
   "renovate-config": {
     "default": {
       "extends": [
