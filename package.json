@@ -1,0 +1,34 @@
+{
+  "name": "@wopian/renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable renovate config for my projects",
+  "repository": "https://github.com/wopian/renovate-config",
+  "author": "James Harris <wopian@wopian.me>",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        ":npm",
+        ":preserveSemverRanges",
+        ":combinePatchMinorReleases",
+        ":renovatePrefix",
+        ":semanticCommits",
+        ":semanticCommitTypeAll(chore)",
+        ":rebaseStalePrs",
+        ":unpublishSafe",
+        ":prNotPending",
+        ":automergeDisabled",
+        ":maintainLockFilesMonthly",
+        ":ignoreUnstable",
+        ":updateNotScheduled",
+        ":label(dependencies)",
+        ":timezone(Europe/London)",
+        ":assignee(wopian)",
+        "group:babelMonorepo",
+        "group:jestMonorepo",
+        "group:reactMonorepo",
+        "group:storybookMonorepo"
+      ]
+    }
+  }
+}
