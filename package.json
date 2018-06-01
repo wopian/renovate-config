@@ -1,16 +1,20 @@
 {
   "name": "@wopian/renovate-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shareable renovate config for my projects",
   "repository": "https://github.com/wopian/renovate-config",
   "author": "James Harris <wopian@wopian.me>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "patch": "release patch",
+    "minor": "release minor",
+    "major": "release major"
   },
   "devDependencies": {
     "jest": "^23.1.0",
+    "release": "^4.0.0",
     "renovate": "~12.39.4"
   },
   "renovate-config": {
