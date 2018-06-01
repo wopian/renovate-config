@@ -7,14 +7,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest",
-    "patch": "release patch",
-    "minor": "release minor",
-    "major": "release major"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^23.1.0",
-    "release": "^4.0.0",
     "renovate": "~12.39.4"
   },
   "renovate-config": {
