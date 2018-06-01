@@ -6,30 +6,44 @@
   "author": "James Harris <wopian@wopian.me>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "renovate": "~12.39.4"
+  },
   "renovate-config": {
     "default": {
       "extends": [
-        ":npm",
-        ":preserveSemverRanges",
-        ":combinePatchMinorReleases",
-        ":renovatePrefix",
-        ":semanticCommits",
-        ":semanticCommitTypeAll(chore)",
-        ":rebaseStalePrs",
-        ":unpublishSafe",
-        ":prNotPending",
-        ":automergeDisabled",
-        ":maintainLockFilesMonthly",
-        ":ignoreUnstable",
-        ":updateNotScheduled",
-        ":label(dependencies)",
-        ":timezone(Europe/London)",
         ":assignee(wopian)",
+        ":automergeDisabled",
+        ":combinePatchMinorReleases",
+        ":ignoreUnstable",
+        ":label(dependencies)",
+        ":maintainLockFilesMonthly",
+        ":npm",
+        ":prConcurrentLimit10",
+        ":prHourlyLimit1",
+        ":prNotPending",
+        ":preserveSemverRanges",
+        ":rebaseStalePrs",
+        ":renovatePrefix",
+        ":semanticCommitScopeDisabled",
+        ":semanticCommitTypeAll(build)",
+        ":semanticCommits",
+        ":timezone(Europe/London)",
+        ":unpublishSafe",
+        ":updateNotScheduled",
+        "group:babel6Monorepo",
         "group:babelMonorepo",
+        "group:definitelyTyped",
         "group:jestMonorepo",
+        "group:linters",
         "group:reactMonorepo",
         "group:storybookMonorepo"
-      ]
+      ],
+      "commitMessageExtra": "to {{{newVersion}}}"
     }
   }
 }
