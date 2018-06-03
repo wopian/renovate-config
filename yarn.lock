@@ -16,6 +16,12 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@renovate/pep440@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@renovate/pep440/-/pep440-0.2.0.tgz#dbfea48b726a6cada912031c2a06c02eccfe9753"
+  dependencies:
+    xregexp "^4.1.1"
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -3941,9 +3947,9 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
-pnpm@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.2.1.tgz#04405c0aeffdcf426b8d86a19e9193e56227e414"
+pnpm@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.2.2.tgz#23d5ed8d7c5133ad46b4ac7b0ee63cbe7bdec688"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4238,10 +4244,11 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
 
-renovate@~12.40.0:
-  version "12.40.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.40.0.tgz#d09711878ea371389db6e7d0e1c54450e2418c2a"
+renovate@~12.43.0:
+  version "12.43.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.43.0.tgz#672dcba6201783a5d9bcd851aa18a50ddae945b2"
   dependencies:
+    "@renovate/pep440" "0.2.0"
     "@yarnpkg/lockfile" "1.0.1"
     bunyan "1.8.12"
     cacache "11.0.2"
@@ -4279,7 +4286,7 @@ renovate@~12.40.0:
     openpgp "2.6.2"
     p-all "1.0.0"
     parse-link-header "1.0.1"
-    pnpm "2.2.1"
+    pnpm "2.2.2"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "1.1.0"
@@ -4293,6 +4300,7 @@ renovate@~12.40.0:
     upath "1.1.0"
     validator "10.2.0"
     vso-node-api "6.5.0"
+    xregexp "4.1.1"
     yarn "1.7.0"
 
 repeat-element@^1.1.2:
@@ -5350,6 +5358,10 @@ xdg-basedir@^3.0.0:
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
+
+xregexp@4.1.1, xregexp@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.1.1.tgz#eb8a032aa028d403f7b1b22c47a5f16c24b21d8d"
 
 xtend@~4.0.1:
   version "4.0.1"
