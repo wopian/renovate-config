@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "jest": "~23.1.0",
-    "renovate": "~12.43.0"
+    "renovate": "~12.51.0"
   },
   "renovate-config": {
     "default": {
