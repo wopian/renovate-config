@@ -3225,9 +3225,9 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-moment-timezone@0.5.20:
-  version "0.5.20"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.20.tgz#fe66da425dd9f9bbf416f131bf17659680aabb99"
+moment-timezone@0.5.21:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
   dependencies:
     moment ">= 2.9.0"
 
@@ -3982,9 +3982,9 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
-pnpm@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.6.2.tgz#5507ebe92373aa133c871c9571b5af73aac7728f"
+pnpm@2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.7.0.tgz#cfaf3889c04125abfa20117358d7bcec72902faf"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4279,9 +4279,9 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
 
-renovate@~12.62.0:
-  version "12.62.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.62.1.tgz#b82b4b10b87b946a43d4adf7816080278d994115"
+renovate@~12.63.0:
+  version "12.63.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.63.0.tgz#809fd6857553a035fb5374d05f6969aa91233ee5"
   dependencies:
     "@renovate/pep440" "0.3.0"
     "@sindresorhus/is" "0.9.0"
@@ -4319,12 +4319,12 @@ renovate@~12.62.0:
     markdown-it "8.4.1"
     minimatch "3.0.4"
     moment "2.22.2"
-    moment-timezone "0.5.20"
+    moment-timezone "0.5.21"
     npm "6.1.0"
     openpgp "2.6.2"
     p-all "1.0.0"
     parse-link-header "1.0.1"
-    pnpm "2.6.2"
+    pnpm "2.7.0"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "1.1.0"
