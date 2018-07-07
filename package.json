@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "~23.2.0",
+    "jest": "~23.3.0",
     "renovate": "~12.63.0"
   },
   "renovate-config": {
