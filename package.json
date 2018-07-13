@@ -42,7 +42,7 @@
         "group:linters",
         "group:reactMonorepo",
         "group:storybookMonorepo",
-        "schedule:weekends"
+        "schedule:daily"
       ],
       "commitMessageExtra": "to {{{newVersion}}}"
     }
