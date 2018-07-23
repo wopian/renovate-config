@@ -44,7 +44,7 @@
         "group:storybookMonorepo",
         "schedule:daily"
       ],
-      "commitMessageExtra": "to {{{newVersion}}}"
+      "commitMessageExtra": "to {{{newValue}}}"
     }
   }
 }
