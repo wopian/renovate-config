@@ -26,17 +26,17 @@ All code released under [MIT]
 [mit]: https://github.com/wopian/eslint-config-wopian/blob/master/LICENSE.md
 
 [travis]: https://travis-ci.com/wopian/renovate-config
-[travis badge]: https://img.shields.io/travis/com/wopian/renovate-config/master.svg?style=flat-square&label=linux%20%26%20macOS
+[travis badge]: https://flat.badgen.net/travis/wopian/renovate-config
 
 [npm]: https://www.npmjs.com/package/@wopian/renovate-config
-[npm badge]: https://img.shields.io/npm/v/@wopian/renovate-config.svg?style=flat-square
-[npm install badge]: https://img.shields.io/npm/dt/@wopian/renovate-config.svg?style=flat-square
+[npm badge]: https://flat.badgen.net/npm/v/@wopian/renovate-config
+[npm install badge]: https://flat.badgen.net/npm/dt/@wopian/renovate-config
 
 [david]: https://david-dm.org/wopian/renovate-config
-[david badge]: https://img.shields.io/david/wopian/renovate-config.svg?style=flat-square
+[david badge]: https://flat.badgen.net/david/dep/wopian/renovate-config
 
 [david dev]: https://david-dm.org/wopian/renovate-config?type=dev
-[david dev badge]: https://img.shields.io/david/dev/wopian/renovate-config.svg?style=flat-square
+[david dev badge]: https://flat.badgen.net/david/dev/wopian/renovate-config
 
 [donate]:https://paypal.me/wopian
-[donate badge]:https://img.shields.io/badge/support%20me%20on-paypal.me-ff69b4.svg?style=flat-square
+[donate badge]:https://flat.badgen.net/badge/support%20me%20on/paypal.me/pink
