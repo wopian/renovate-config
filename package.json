@@ -10,8 +10,8 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^23.4.0",
-    "renovate": "^13.21.0"
+    "jest": "^23.5.0",
+    "renovate": "^13.45.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -47,6 +47,7 @@
         "group:storybookMonorepo",
         "schedule:daily"
       ],
+      "commitMessageTopic": "{{prettyDepType}} {{depName}}",
       "commitMessageExtra": "to {{{newValue}}}"
     }
   }
