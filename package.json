@@ -44,11 +44,14 @@
         "group:jestMonorepo",
         "group:linters",
         "group:reactMonorepo",
-        "group:storybookMonorepo",
-        "schedule:daily"
+        "group:storybookMonorepo"
       ],
       "commitMessageTopic": "{{prettyDepType}} {{depName}}",
-      "commitMessageExtra": "to {{{newValue}}}"
+      "commitMessageExtra": "to {{{newValue}}}",
+      "schedule": [
+        "before 9am",
+        "after 5pm"
+      ]
     }
   }
 }
