@@ -275,9 +275,9 @@
     verror "1.x >=1.6.0"
     www-authenticate "0.6.x >=0.6.2"
 
-"@sindresorhus/is@0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.15.0.tgz#96915baa05e6a6a1d137badf4984d3fc05820bb6"
+"@sindresorhus/is@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.16.0.tgz#355a7801472ad3810365c1e8aecabcaf45227c54"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -2880,7 +2880,7 @@ json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
-json5@^2.1.0:
+json5@2.1.0, json5@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.0.tgz#e7a0c62c48285c628d20a10b85c89bb807c32850"
   dependencies:
@@ -3302,9 +3302,9 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-luxon@1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.12.1.tgz#924bd61404f70b0cc5168918cb0ac108e52aacc4"
+luxon@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.13.2.tgz#2866c7a7591441aea0004e8cf80d5ca6d917017a"
 
 make-dir@^1.0.0, make-dir@^1.3.0:
   version "1.3.0"
@@ -3556,9 +3556,9 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-moment-timezone@0.5.23:
-  version "0.5.23"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
+moment-timezone@0.5.25:
+  version "0.5.25"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.25.tgz#a11bfa2f74e088327f2cd4c08b3e7bdf55957810"
   dependencies:
     moment ">= 2.9.0"
 
@@ -4313,9 +4313,9 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
-pnpm@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.1.1.tgz#1cf854ca4880a270c5b18a18a3775f98929c5ef2"
+pnpm@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.2.0.tgz#2a31308ea1564088b9089022d25caee5e727447a"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4711,13 +4711,13 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
 
-renovate@^16.0.0:
-  version "16.0.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-16.0.4.tgz#c364058ac0625e8c46fb642ec0d96c9a4f6af5a6"
+renovate@^17.0.0:
+  version "17.2.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.2.1.tgz#f471cf26ca3b45967c1b8c85ec729e4fc174a4c4"
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
-    "@sindresorhus/is" "0.15.0"
+    "@sindresorhus/is" "0.16.0"
     "@snyk/ruby-semver" "2.0.1"
     "@yarnpkg/lockfile" "1.1.0"
     azure-devops-node-api "7.2.0"
@@ -4746,29 +4746,30 @@ renovate@^16.0.0:
     js-yaml "3.13.1"
     json-dup-key-validator "1.0.2"
     json-stringify-pretty-compact "2.0.0"
+    json5 "2.1.0"
     later "1.2.0"
     linkify-markdown "1.0.0"
     lodash "4.17.11"
-    luxon "1.12.1"
+    luxon "1.13.2"
     markdown-it "8.4.2"
     minimatch "3.0.4"
     moment "2.24.0"
-    moment-timezone "0.5.23"
+    moment-timezone "0.5.25"
     node-html-parser "1.1.15"
     npm "6.9.0"
     openpgp "2.6.2"
     p-all "2.1.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "3.1.1"
+    pnpm "3.2.0"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "2.0.2"
-    semver "5.7.0"
+    semver "6.0.0"
     semver-stable "2.0.4"
     semver-utils "1.1.4"
-    simple-git "1.110.0"
+    simple-git "1.113.0"
     slugify "1.3.4"
     toml "3.0.0"
     tomlify-j0.4 "3.0.0"
@@ -4778,7 +4779,7 @@ renovate@^16.0.0:
     validator "10.11.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
-    yarn "1.15.2"
+    yarn "1.16.0"
 
 repeat-element@^1.1.2:
   version "1.1.3"
@@ -5006,9 +5007,13 @@ semver-utils@1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/semver-utils/-/semver-utils-1.1.4.tgz#cf0405e669a57488913909fc1c3f29bf2a4871e2"
 
-"semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@5.7.0, "semver@^2.3.0 || 3.x || 4 || 5", semver@^5.0.1, semver@^5.0.3, semver@^5.1.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+"semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", "semver@^2.3.0 || 3.x || 4 || 5", semver@^5.0.1, semver@^5.0.3, semver@^5.1.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
+
+semver@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
 
 semver@~5.3.0:
   version "5.3.0"
@@ -5065,9 +5070,9 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-simple-git@1.110.0:
-  version "1.110.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.110.0.tgz#54eb179089d055a7783d32399246cebc9d9933e9"
+simple-git@1.113.0:
+  version "1.113.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.113.0.tgz#668989728a1e9cf4ec6c72b69ea2eecc93489bea"
   dependencies:
     debug "^4.0.1"
 
@@ -6050,6 +6055,6 @@ yargs@^12.0.2:
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
 
-yarn@1.15.2:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.15.2.tgz#7a064ca81ca34235f16376ad2f796ed432f9e285"
+yarn@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.16.0.tgz#5701b58ac555ff91f7b889b7d791b3dc86f8f999"
