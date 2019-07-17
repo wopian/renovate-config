@@ -1,7 +1,4 @@
-const { initLogger } = require('renovate/lib/logger')
-const { migrateAndValidate } = require('renovate/lib/config/migrate-validate')
-
-initLogger()
+const { migrateAndValidate } = require('renovate/dist/config/migrate-validate')
 
 describe('@wopian/renovate-config', () => {
   let pkg, config
