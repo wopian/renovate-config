@@ -21,13 +21,15 @@
       "extends": [
         ":assignee(wopian)",
         ":automergeDisabled",
+        ":automergeTypes",
         ":combinePatchMinorReleases",
         ":ignoreUnstable",
         ":label(dependencies)",
-        ":maintainLockFilesMonthly",
+        ":enableVulnerabilityAlertsWithLabel(security)",
+        ":maintainLockFilesWeekly",
         ":npm",
-        ":prConcurrentLimit10",
-        ":prHourlyLimit1",
+        ":docker",
+        ":disableRateLimiting",
         ":prNotPending",
         ":preserveSemverRanges",
         ":rebaseStalePrs",
@@ -38,6 +40,7 @@
         ":timezone(Europe/London)",
         ":unpublishSafe",
         ":updateNotScheduled",
+        ":widenPeerDependencies",
         "group:babelMonorepo",
         "group:definitelyTyped",
         "group:jestMonorepo",
@@ -46,11 +49,7 @@
         "group:storybookMonorepo"
       ],
       "commitMessageTopic": "{{prettyDepType}} {{depName}}",
-      "commitMessageExtra": "to {{{newValue}}}",
-      "schedule": [
-        "before 9am",
-        "after 5pm"
-      ]
+      "commitMessageExtra": "to {{{newValue}}}"
     }
   }
 }
