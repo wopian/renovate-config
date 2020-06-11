@@ -5,7 +5,6 @@
 [![npm install badge]][npm]
 [![david badge]][david]
 [![david dev badge]][david dev]
-[![donate badge]][donate]
 
 Renovate Config for my Node.js projects.
 
@@ -37,6 +36,3 @@ All code released under [MIT]
 
 [david dev]: https://david-dm.org/wopian/renovate-config?type=dev
 [david dev badge]: https://flat.badgen.net/david/dev/wopian/renovate-config
-
-[donate]:https://paypal.me/wopian
-[donate badge]:https://flat.badgen.net/badge/support%20me%20on/paypal.me/pink
