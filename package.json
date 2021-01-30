@@ -49,7 +49,12 @@
         "group:storybookMonorepo"
       ],
       "commitMessageTopic": "{{prettyDepType}} {{depName}}",
-      "commitMessageExtra": "to {{{newValue}}}"
+      "commitMessageExtra": "to {{{newValue}}}",
+      "stabilityDays": 7,
+      "prCreation": "not-pending",
+      "suppressNotifications": [ "prIgnoreNotification" ],
+      "dependencyDashboard": true,
+      "postUpdateOptions": [ "yarnDedupeHighest" ]
     }
   }
 }
