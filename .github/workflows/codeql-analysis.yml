@@ -1,7 +1,7 @@
 name: Code Scanning
 
 on:
-  push:
+  push: [master]
   pull_request:
   schedule:
     #        ┌───────────── minute (0 - 59)
