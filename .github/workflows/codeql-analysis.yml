@@ -1,7 +1,8 @@
 name: Code Scanning
 
 on:
-  push: [master]
+  push:
+    branches: [master]
   pull_request:
   schedule:
     #        ┌───────────── minute (0 - 59)
