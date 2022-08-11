@@ -1,6 +1,5 @@
 # @wopian/renovate-config
 
-[![travis badge]][travis]
 [![npm badge]][npm]
 [![npm install badge]][npm]
 
@@ -21,9 +20,6 @@ Replace `renovate.json` with:
 All code released under [MIT]
 
 [mit]: https://github.com/wopian/eslint-config-wopian/blob/master/LICENSE.md
-
-[travis]: https://travis-ci.com/wopian/renovate-config
-[travis badge]: https://flat.badgen.net/travis/wopian/renovate-config
 
 [npm]: https://www.npmjs.com/package/@wopian/renovate-config
 [npm badge]: https://flat.badgen.net/npm/v/@wopian/renovate-config
