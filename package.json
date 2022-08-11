@@ -15,46 +15,5 @@
   },
   "jest": {
     "testEnvironment": "node"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        ":assignee(wopian)",
-        ":automergeDisabled",
-        ":automergeTypes",
-        ":combinePatchMinorReleases",
-        ":ignoreUnstable",
-        ":label(dependencies)",
-        ":enableVulnerabilityAlertsWithLabel(security)",
-        ":maintainLockFilesWeekly",
-        ":npm",
-        ":docker",
-        ":disableRateLimiting",
-        ":prNotPending",
-        ":preserveSemverRanges",
-        ":rebaseStalePrs",
-        ":renovatePrefix",
-        ":semanticCommitScopeDisabled",
-        ":semanticCommitTypeAll(build)",
-        ":semanticCommits",
-        ":timezone(Europe/London)",
-        ":unpublishSafe",
-        ":updateNotScheduled",
-        ":widenPeerDependencies",
-        "group:babelMonorepo",
-        "group:definitelyTyped",
-        "group:jestMonorepo",
-        "group:linters",
-        "group:reactMonorepo",
-        "group:storybookMonorepo"
-      ],
-      "commitMessageTopic": "{{prettyDepType}} {{depName}}",
-      "commitMessageExtra": "to {{{newValue}}}",
-      "stabilityDays": 7,
-      "prCreation": "not-pending",
-      "suppressNotifications": [ "prIgnoreNotification" ],
-      "dependencyDashboard": true,
-      "postUpdateOptions": [ "yarnDedupeHighest" ]
-    }
   }
 }
