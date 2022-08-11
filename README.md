@@ -3,8 +3,6 @@
 [![travis badge]][travis]
 [![npm badge]][npm]
 [![npm install badge]][npm]
-[![david badge]][david]
-[![david dev badge]][david dev]
 
 Renovate Config for my Node.js projects.
 
@@ -33,6 +31,3 @@ All code released under [MIT]
 
 [david]: https://david-dm.org/wopian/renovate-config
 [david badge]: https://flat.badgen.net/david/dep/wopian/renovate-config
-
-[david dev]: https://david-dm.org/wopian/renovate-config?type=dev
-[david dev badge]: https://flat.badgen.net/david/dev/wopian/renovate-config
