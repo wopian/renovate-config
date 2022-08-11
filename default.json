@@ -35,7 +35,7 @@
   ],
   "commitMessageTopic": "{{prettyDepType}} {{depName}}",
   "commitMessageExtra": "to {{{newValue}}}",
-  "stabilityDays": 7,
+  "stabilityDays": 3,
   "prCreation": "not-pending",
   "suppressNotifications": [ "prIgnoreNotification" ],
   "dependencyDashboard": true,
