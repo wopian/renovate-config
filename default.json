@@ -37,6 +37,7 @@
   "commitMessageExtra": "to {{{newValue}}}",
   "suppressNotifications": ["prIgnoreNotification"],
   "dependencyDashboard": true,
+  "stabilityDays": 0,
   "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
