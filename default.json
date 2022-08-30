@@ -37,13 +37,16 @@
   "commitMessageExtra": "to {{{newValue}}}",
   "suppressNotifications": ["prIgnoreNotification"],
   "dependencyDashboard": true,
-  "stabilityDays": 0,
   "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
       "matchUpdateTypes": ["lockFileMaintenance"],
       "prCreation": "immediate",
       "prPriority": 10
+    },
+    {
+      "matchDatasources": ["npm"],
+      "stabilityDays": 0
     }
   ]
 }
