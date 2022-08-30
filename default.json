@@ -13,7 +13,7 @@
     ":docker",
     "docker:enableMajor",
     ":disableRateLimiting",
-    ":prNotPending",
+    ":prImmediately",
     ":preserveSemverRanges",
     ":rebaseStalePrs",
     ":renovatePrefix",
@@ -43,7 +43,8 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["lockFileMaintenance"],
-      "prCreation": "immediate"
+      "prCreation": "immediate",
+      "prPriority": 10
     }
   ]
 }
