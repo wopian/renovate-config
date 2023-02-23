@@ -17,7 +17,6 @@
     ":preserveSemverRanges",
     ":rebaseStalePrs",
     ":renovatePrefix",
-    ":semanticCommitScopeDisabled",
     ":semanticCommitTypeAll(build)",
     ":semanticCommits",
     ":timezone(Europe/London)",
