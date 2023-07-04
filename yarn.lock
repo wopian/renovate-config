@@ -5870,10 +5870,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.0.0:
-  version "35.158.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.158.0.tgz#2b61844f10c3fb1cf8656bbdc3ed74527570e531"
-  integrity sha512-uGXRUCfdKJv+LViy56DtUM30Wt2C/dejiPWZD6JtlVySMs0wH73Oag2kWH7YhOrXrZVLXSDBLSFQeaa1cJ/rZg==
+renovate@^36.0.0:
+  version "36.0.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.0.0.tgz#e9ba146094c7f1883e194bde6ec09400742f5219"
+  integrity sha512-Cv68+3i/jPKBIA5i4qk2tnYAmrYGiwRKs4WqMMQt27ncvEpFnYcWL+82gro/bBomvRIe9ogI6NyLE8o3e1D4OQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.348.0"
     "@aws-sdk/client-ec2" "3.348.0"
@@ -5969,11 +5969,11 @@ renovate@^35.0.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.2"
-    simple-git "3.19.0"
+    simple-git "3.19.1"
     slugify "1.6.6"
     source-map-support "0.5.21"
     traverse "0.6.7"
-    tslib "2.5.3"
+    tslib "2.6.0"
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "5.0.0"
@@ -6200,10 +6200,10 @@ signal-exit@^4.0.1:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
   integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
 
-simple-git@3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.19.0.tgz#fe8d0cd86a0e68372b75c0c44a0cb887201c3f7d"
-  integrity sha512-hyH2p9Ptxjf/xPuL7HfXbpYt9gKhC1yWDh3KYIAYJJePAKV7AEjLN4xhp7lozOdNiaJ9jlVvAbBymVlcS2jRiA==
+simple-git@3.19.1:
+  version "3.19.1"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.19.1.tgz#ff9c021961a3d876a1b115b1893bed9a28855d30"
+  integrity sha512-Ck+rcjVaE1HotraRAS8u/+xgTvToTuoMkT9/l9lvuP5jftwnYUp6DwuJzsKErHgfyRk8IB8pqGHWEbM3tLgV1w==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
@@ -6556,20 +6556,15 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-tslib@2.5.3:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
-  integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
+tslib@2.6.0, tslib@^2.3.1, tslib@^2.5.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
+  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
 
 tslib@^1.11.1, tslib@^1.13.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
-tslib@^2.3.1, tslib@^2.5.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
-  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
 
 tunnel@0.0.6, tunnel@^0.0.6:
   version "0.0.6"
