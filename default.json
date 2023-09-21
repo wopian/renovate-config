@@ -46,6 +46,20 @@
     {
       "matchDatasources": ["npm"],
       "stabilityDays": 0
-    }
+    },
+     "packageRules": [
+      {
+        "matchPackagePrefixes": [
+          "@tanstack/"
+        ],
+        "groupName": "tanstack"
+      },
+      {
+        "matchPackagePrefixes": [
+          "@semantic-release"
+        ],
+        "groupName": "semantic-release"
+      }
+    ]
   ]
 }
