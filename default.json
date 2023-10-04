@@ -41,7 +41,18 @@
     {
       "matchUpdateTypes": ["lockFileMaintenance"],
       "prCreation": "immediate",
-      "prPriority": 10
+      "prPriority": 10,
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "!/^0/"
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["yarn", "pnpm"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
     },
     {
       "matchDatasources": ["npm"],
