@@ -45,7 +45,7 @@
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["patch", "minor"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     },
