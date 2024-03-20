@@ -2,7 +2,6 @@
   "extends": [
     ":assignee(wopian)",
     ":reviewer(wopian)",
-    ":automergeDisabled",
     ":automergeTypes",
     ":combinePatchMinorReleases",
     ":ignoreUnstable",
