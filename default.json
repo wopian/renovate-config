@@ -55,7 +55,7 @@
     },
     {
       "matchDatasources": ["npm"],
-      "stabilityDays": 0
+      "stabilityDays": 7
     },
     {
       "matchPackagePrefixes": [
