@@ -1,6 +1,5 @@
 {
   "extends": [
-    ":assignee(wopian)",
     ":reviewer(wopian)",
     ":automergeTypes",
     ":combinePatchMinorReleases",
