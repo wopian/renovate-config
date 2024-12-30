@@ -11,7 +11,7 @@
     ":docker",
     "docker:enableMajor",
     ":disableRateLimiting",
-    ":prImmediately",
+    ":prNotPending",
     ":preserveSemverRanges",
     ":rebaseStalePrs",
     ":renovatePrefix",
