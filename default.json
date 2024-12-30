@@ -6,7 +6,7 @@
     ":ignoreUnstable",
     ":label(dependencies)",
     ":enableVulnerabilityAlertsWithLabel(security)",
-    ":maintainLockFilesWeekly",
+    ":maintainLockFilesMonthly",
     ":npm",
     ":docker",
     "docker:enableMajor",
