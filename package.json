@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "jest": "^30.0.0",
-    "renovate": "^39.0.0"
+    "renovate": "^41.0.0"
   },
   "jest": {
     "testEnvironment": "node"
