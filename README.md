@@ -5,6 +5,14 @@
 
 Renovate Config for my Node.js projects.
 
+Development uses Bun and TypeScript.
+
+```sh
+bun install
+bun test
+bun run typecheck
+```
+
 ## Usage
 
 Replace `renovate.json` with:
